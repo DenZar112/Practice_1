@@ -7,23 +7,26 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="82dp"
-        android:layout_height="41dp"
-        android:text="Hello World!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="5dp"
+        android:text="New Application"
+        android:textColorLink="#03A9F4"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.381" />
+        app:layout_constraintVertical_bias="0.054" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="132dp"
         android:layout_height="39dp"
         android:text="Knopka"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="455dp" />
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="606dp" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/group"
@@ -41,8 +44,27 @@
         android:id="@+id/switch1"
         android:layout_width="280dp"
         android:layout_height="29dp"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="554dp" />
+        android:showText="level"
+        android:text="Level"
+        android:textColorLink="#F44336"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="182dp"
+        android:layout_height="44dp"
+        android:text="Lesson 1"
+        android:textColorHighlight="#673AB7"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_save"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="164dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
